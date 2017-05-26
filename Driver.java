@@ -14,9 +14,10 @@ public class Driver
 
 	public static void execute()
 	{
+		animals = new ArrayList<Life>();
 		Scanner in = new Scanner(System.in);
 		boolean isPlaying = true;
-		String[] actionOptions = {"Feed your cat(s)", "Sleep (end day)", "Play with a cat"};
+		String[] actionOptions = {"Feed your cat(s)", "Sleep (end day)", "Play with a cat", "Check on cat stats", "Exit"};
 		ImageIcon optionImage = new ImageIcon("optionImage.jpg");
 
 		System.out.println("Pet Simulator I\n______________");
@@ -53,6 +54,8 @@ public class Driver
 		System.out.println("If you don't take care of your cat, their happiness and energy will drop and eventually they could die.");
 		System.out.println("But don't dwell on that! I'll get you get used to the game and if you need instructions, enter \"help\" when you can!");
 		System.out.println("Best of luck to you and " + name + "!");
+		System.out.println("Enter any key to begin!");
+		in.next();
 
 		while(isPlaying)
 		{
