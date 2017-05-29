@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<title>
+		Cat Simulator I
+	</title>
+</head>
+<body>
+	<div class="topnav" id="myTopNav">
+		<a href="website.html">Home</a>
+		<a href="code.html">Code</a>
+		<a href="diagram.html">UML Diagram</a>
+	</div>
+	<h1 id=title>
+		UML Diagram
+	</h1>
+	<img src="SourceImagesHTML\CatsTopBar.png" class="center fit">
+	<img src="SourceImagesHTML\UMLDiagram.jpg" class="center fit">
+	
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" language="JavaScript">
+	  function set_body_height() { // set body height = window height
+	    $('body').height($(window).height());
+	  }
+	  $(document).ready(function() {
+	    $(window).bind('resize', set_body_height);
+	    set_body_height();
+	  });
+	</script>
+</body>
+</html>

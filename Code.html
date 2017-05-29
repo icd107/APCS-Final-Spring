@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<title>
+		Cat Simulator I
+	</title>
+</head>
+<body onload="openCode(event, 'Cat')">
+	<div class="topnav" id="myTopNav">
+		<a href="website.html">Home</a>
+		<a href="code.html">Code</a>
+		<a href="diagram.html">UML Diagram</a>
+	</div>
+	<h1 id=title>
+		CODE
+	</h1>
+	<img src="SourceImagesHTML\CatsTopBar.png" class="center fit">
+	<div class="tab" align="center">
+		<button class="tablinks" onclick="openCode(event, 'Cat')">
+			Cat.java
+		</button>
+		<button class="tablinks" onclick="openCode(event, 'Life')">
+			Life.java
+		</button>
+		<button class="tablinks" onclick="openCode(event, 'Black')">
+			Black.java
+		</button>
+		<button class="tablinks" onclick="openCode(event, 'Calico')">
+			Calico.java
+		</button>
+		<button class="tablinks" onclick="openCode(event, 'Tabby')">
+			Tabby.java
+		</button>
+		<button class="tablinks" onclick="openCode(event, 'Driver')">
+			Driver.java
+		</button>
+	</div>
+
+	<div id="Cat" class="tabcontent">
+		<h3>Cat.java</h3>
+		<embed src="Cat.java">
+	</div>
+	<div id="Life" class="tabcontent">
+		<h3>Life.java</h3>
+		<embed src="Life.java">
+	</div>
+	<div id="Black" class="tabcontent">
+		<h3>Black.java</h3>
+		<embed src="Black.java">
+	</div>
+	<div id="Calico" class="tabcontent">
+		<h3>Calico.java</h3>
+		<embed src="Calico.java">
+	</div>
+	<div id="Tabby" class="tabcontent">
+		<h3>Tabby.java</h3>
+		<embed src="Tabby.java">
+	</div>
+	<div id="Driver" class="tabcontent">
+		<h3>Driver.java</h3>
+		<embed src="Driver.java">
+	</div>
+
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" language="JavaScript">
+	 	function set_body_height() { // set body height = window height
+			$('body').height($(window).height());
+		}
+	 	$(document).ready(function() {
+	    	$(window).bind('resize', set_body_height);
+	    	set_body_height();
+	  	});
+
+	  	function openCode(evt, fileName)
+	  	{
+			var i, tabcontent, tablinks;
+	    	tabcontent = document.getElementsByClassName("tabcontent");
+	    	for (i = 0; i < tabcontent.length; i++) {
+	        	tabcontent[i].style.display = "none";
+	    	}
+	    	tablinks = document.getElementsByClassName("tablinks");
+	    	for (i = 0; i < tablinks.length; i++) {
+	        	tablinks[i].className = tablinks[i].className.replace(" active", "");
+	    	}
+	    	document.getElementById(fileName).style.display = "block";
+	    	evt.currentTarget.className += " active";
+	  	}
+	</script>
+</body>
+</html>
