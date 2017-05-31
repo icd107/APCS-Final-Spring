@@ -9,8 +9,8 @@ public class Tabby extends Cat
 	public Tabby(String name)
 	{
 		super(name);
-		kitten = new ImageIcon("SourceImagesJava/tabbyKitten.jpg");
-		cat = new ImageIcon("SourceImagesJava/abbyCat.jpg");
+		kitten = new ImageIcon("../SourceImagesJava/tabbyKitten.jpg");
+		cat = new ImageIcon("../SourceImagesJava/abbyCat.jpg");
 	}
 	public void showStats()
 	{

@@ -9,8 +9,8 @@ public class Black extends Cat
 	public Black(String name)
 	{
 		super(name);
-		kitten = new ImageIcon("SourceImagesJava/blackKitten.jpg");
-		cat = new ImageIcon("SourceImagesJava/blackCat.jpeg");
+		kitten = new ImageIcon("../SourceImagesJava/blackKitten.jpg");
+		cat = new ImageIcon("../SourceImagesJava/blackCat.jpeg");
 	}
 	public void showStats()
 	{

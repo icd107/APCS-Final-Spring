@@ -9,15 +9,15 @@ public class Driver
 	private static ArrayList<Cat> animals;
 
 	//Images
-	private static ImageIcon optionImage = new ImageIcon("SourceImagesJava/optionImage.jpg");
-	private static ImageIcon feedingImage = new ImageIcon("SourceImagesJava/feedingImage.jpg");
-	private static ImageIcon sleepingImage = new ImageIcon("SourceImagesJava/sleepingImage.jpg");
-	private static ImageIcon waitingToPlayImage = new ImageIcon("SourceImagesJava/waitingToPlayImage.jpg");
-	private static ImageIcon playingImage = new ImageIcon("SourceImagesJava/playingImage.jpg");
-	private static ImageIcon statsImage = new ImageIcon("SourceImagesJava/statsImage.jpg");
-	private static ImageIcon helpImage = new ImageIcon("SourceImagesJava/helpImage.jpg");
-	private static ImageIcon deathImage = new ImageIcon("SourceImagesJava/deathImage.jpg");
-	private static ImageIcon adoptImage = new ImageIcon("SourceImagesJava/adoptImage.jpg");
+	private static ImageIcon optionImage = new ImageIcon("../SourceImagesJava/optionImage.jpg");
+	private static ImageIcon feedingImage = new ImageIcon("../SourceImagesJava/feedingImage.jpg");
+	private static ImageIcon sleepingImage = new ImageIcon("../SourceImagesJava/sleepingImage.jpg");
+	private static ImageIcon waitingToPlayImage = new ImageIcon("../SourceImagesJava/waitingToPlayImage.jpg");
+	private static ImageIcon playingImage = new ImageIcon("../SourceImagesJava/playingImage.jpg");
+	private static ImageIcon statsImage = new ImageIcon("../SourceImagesJava/statsImage.jpg");
+	private static ImageIcon helpImage = new ImageIcon("../SourceImagesJava/helpImage.jpg");
+	private static ImageIcon deathImage = new ImageIcon("../SourceImagesJava/deathImage.jpg");
+	private static ImageIcon adoptImage = new ImageIcon("../SourceImagesJava/adoptImage.jpg");
 
 	//Help Dialogue
 	private static String help = "Every day you get three actions. Feeding your cats and playing with them take up an action. Viewing the stats of the cats and viewing the help screen does not take up energy.\nYour cats' happiness and energy deplete naturally, but are affected by different actions. When either the happiness orenergy reaches zero or if hunger reaches 100, the cat will die. Make sure to check their stats and meet their needs so they don't die!\nIf you use all of your actions, then you automatically sleep. You can sleep early and forfeit your remaining actions by sleeping.\nEvery five days, you have the option to adopt another cat. Keep in mind, the number of actions per day increased only every 3 cats, so you have to carefully choose your actions. Have fun with your kitties!";

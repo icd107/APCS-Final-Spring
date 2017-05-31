@@ -9,8 +9,8 @@ public class Calico extends Cat
 	public Calico(String name)
 	{
 		super(name);
-		kitten = new ImageIcon("SourceImagesJava/calicoKitten.jpg");
-		cat = new ImageIcon("SourceImagesJava/calicoCat.jpg");
+		kitten = new ImageIcon("../SourceImagesJava/calicoKitten.jpg");
+		cat = new ImageIcon("../SourceImagesJava/calicoCat.jpg");
 	}
 	public void showStats()
 	{
