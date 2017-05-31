@@ -6,7 +6,7 @@
 		Cat Simulator I
 	</title>
 </head>
-<body onload="openCode(event, 'Cat')">
+<body onload="openCode(event, 'ActionMenu')">
 	<div class="topnav" id="myTopNav">
 		<a href="../index.html">Home</a>
 		<a href="code.html">Code</a>
@@ -14,53 +14,41 @@
 		<a href="gallery.html">Gallery</a>
 	</div>
 	<h1 id=title>
-		Gallerys
+		Code
 	</h1>
 	<img src="../SourceImagesHTML\CatsTopBar.png" class="center fit">
 	<div class="tab" align="center">
-		<button class="tablinks" onclick="openCode(event, 'Cat')">
-			Cat.java
+		<button class="tablinks" onclick="openCode(event, 'ActionMenu')">
+			Action Menu
 		</button>
-		<button class="tablinks" onclick="openCode(event, 'Life')">
-			Life.java
+		<button class="tablinks" onclick="openCode(event, 'YourCat')">
+			Your Cat
 		</button>
-		<button class="tablinks" onclick="openCode(event, 'Black')">
-			Black.java
-		</button>
-		<button class="tablinks" onclick="openCode(event, 'Calico')">
-			Calico.java
-		</button>
-		<button class="tablinks" onclick="openCode(event, 'Tabby')">
-			Tabby.java
-		</button>
-		<button class="tablinks" onclick="openCode(event, 'Driver')">
-			Driver.java
+		<button class="tablinks" onclick="openCode(event, 'FeedingTime')">
+			Feeding Your Cat
 		</button>
 	</div>
 
-	<div id="Cat" class="tabcontent">
-		<h3>Cat.java</h3>
-		<embed src="../JavaCode/Cat.java">
+	<div id="ActionMenu" class="tabcontent">
+		<h1>Action Menu</h1>
+		<p>
+			This is where you decide how to take care of your cats! You can feed, play, or check on your cats. Beware! You only have a specific number of actions per day, so don't waste them!
+		</p>
+		<img src="../SourceImagesHTML/ActionMenu.png" class="center fit">
 	</div>
-	<div id="Life" class="tabcontent">
-		<h3>Life.java</h3>
-		<embed src="../JavaCode/Life.java">
+	<div id="YourCat" class="tabcontent">
+		<h1>Your Cat</h1>
+		<p>
+			You can name your cat and see its needs! @ represents a full circle and O represents an empty circle. You want filled happiness and energy, but empty hunger! Your cats also grow, so little Sadie here may not always be a kitten.
+		</p>
+		<img src="../SourceImagesHTML/YourCat.png" class="center fit">
 	</div>
-	<div id="Black" class="tabcontent">
-		<h3>Black.java</h3>
-		<embed src="../JavaCode/Black.java">
-	</div>
-	<div id="Calico" class="tabcontent">
-		<h3>Calico.java</h3>
-		<embed src="../JavaCode/Calico.java">
-	</div>
-	<div id="Tabby" class="tabcontent">
-		<h3>Tabby.java</h3>
-		<embed src="../JavaCode/Tabby.java">
-	</div>
-	<div id="Driver" class="tabcontent">
-		<h3>Driver.java</h3>
-		<embed src="../JavaCode/Driver.java">
+	<div id="FeedingTime" class="tabcontent">
+		<h1>Feeding Your Cat</h1>
+		<p>
+			Feeding your cats is one of the actions you can do to keep your cat happy! You want to make sure to feed your little guy if their hunger is getting high!
+		</p>
+		<img src="../SourceImagesHTML/Feeding.png" class="center fit">
 	</div>
 
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
