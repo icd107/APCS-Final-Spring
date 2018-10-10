@@ -6,3 +6,7 @@ This game will give you a cat, one you have to use energy to take care of, while
 Unfortunately, your cats can die, so be sure to take care of them and utilize your energy efficiently!
 
 Because this project was created for a class, some areas of the code are inefficient to meet certain requirements.
+
+This project also has an accompanying html file describing the files and class layout of the program, however, it's no long an active website. To access this HTML file correctly, you must download the entire repository.
+
+To run this project, please run Driver.java
